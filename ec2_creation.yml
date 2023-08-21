@@ -1,0 +1,20 @@
+Resources:
+     mytestvm:
+       Type: AWS::EC2::Instance
+       Properties:
+         AvailabilityZone: ap-south-1a
+         ImageId: ami-012b9156f755804f5
+         InstanceType: t2.micro
+         SecurityGroupIds: 
+           - "sg-0fb1052b659369aa8"
+         Tags:
+           - Key: Environment
+             Value: Development
+           - Key: Name
+             Value: mytestvm
+           - Key: Owner
+             Value: Thangadurai.murugan@example.com
+           - Key: CreationDate
+             Value: 20/08/2023
+           - Key: IaC
+             Value: CloudFormation

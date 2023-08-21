@@ -1,0 +1,11 @@
+Resources:
+     mys3bucketfortesting:
+       Type: AWS::S3::Bucket
+       Properties:
+         Tags:
+            - Key: Name
+              Value: mydemos3-bucket-iac
+            - Key: Owner
+              Value: Thangadurai.murugan@example.com
+            - Key: IaC
+              Value: CloudFormation

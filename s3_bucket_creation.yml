@@ -6,6 +6,6 @@ Resources:
             - Key: Name
               Value: mydemos3-bucket-iac
             - Key: Owner
-              Value: Thangadurai.murugan@example.com
+              Value: admin@try-devops.xyz
             - Key: IaC
               Value: CloudFormation
